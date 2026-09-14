@@ -1,0 +1,15 @@
+#points,
+#score {
+    display: inline;
+}
+
+.button {
+    position: absolute;
+}
+
+.reset {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+

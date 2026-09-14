@@ -1,0 +1,14 @@
+10 HTML tags:
+<a>, <i>, <button>, <label>, <br>,
+<span>, <table>, <tr>, <td> and <meta>
+
+ 5 CSS properties:
+ color, margin, display, background-color and padding
+
+Brief description of Javascript usage:
+Implementation of background color transition, random reposition of button,
+score system and mouse coordinates tracking, basic operations calculator
+and load a template text
+
+Brief description of Bootstrap usage:
+Implementation off offcanvas navbar for each .html

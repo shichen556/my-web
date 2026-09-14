@@ -1,0 +1,88 @@
+/* Configuracion general
+ A toda la etiqueta de body, cambiar propiedades de*/
+.body {
+    background-color: #313131;
+    /*El color de fondo*/
+    color: #ffffff;
+    /*El color de las letras*/
+    /*El tipo de letra*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*Agrupar los elementos en la misma linia, en columnas (vertical), centrados en el centro*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Configuracion de la imagen*/
+img {
+    /* Ajustar el tamano de la imagen, a 100x100px (un cuadrado) */
+    width: 100px;
+    height: 100px;
+    /*Anadir borde a la imagen, con redondeo 100% (circulo)
+   si fuera menor seria un cuadrado redondeado,
+   si fuera mayor, no se aprecia la diferencia*/
+    border-radius: 100%;
+    /*Con un borde de grosor 2px, de tipo solido, de color blanco*/
+    border: 2px solid #ffffff;
+}
+
+
+/*Configuracion del texto*/
+.p {
+    text-align: center;
+    /*Alinear texto en el centro*/
+    padding-top: 16px;
+}
+
+/*Configuracion de la lista*/
+.ul {
+    list-style: none;
+    /*Quitar bullet points*/
+    padding: 0;
+    /*Quitar la 'caja verde' (caracteristica de las listas), para que los elementos esten centrados*/
+}
+
+/*Configuracion de los elementos de la lista*/
+.li {
+    width: 300px;
+    /*Anadir caja de ancho 300px*/
+    border: 2px solid #ffffff;
+    /*Con un borde de grosor 2px, de tipo solido, de color blanco*/
+    padding: 20px;
+    /*Espaciado entre caja-texto*/
+    border-radius: 10px;
+    /*Redondeo del borde de la caja*/
+    margin: 20px;
+    /*Espaciado caja-caja*/
+    text-align: center;
+    /*Centrar texto*/
+}
+
+/*
+/*Configuracion de los enlances de la lista*/
+.a {
+    color: #ffffff;
+    /*De color blanco*/
+    text-decoration: none;
+    /*Sin el estilo del subrallado*/
+}
+
+
+.h1 {
+    padding-bottom: 16px;
+}
+
+.hr {
+    border-style: solid;
+    border-color: #CCCCCC;
+    width: 95%;
+}
+
+.div {
+    padding-top: 16px;
+}
+
+i {
+    margin: 5px;
+}
